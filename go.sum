@@ -1,5 +1,6 @@
 github.com/VividCortex/ewma v1.1.1 h1:MnEK4VOv6n0RSY4vtRe3h11qjxL3+t0B8yOL8iMXdcM=
 github.com/VividCortex/ewma v1.1.1/go.mod h1:2Tkkvm3sRDVXaiyucHiACn4cqf7DpdyLvmxzcbUokwA=
+github.com/Yesterday17/bili-archive v0.0.0-20190527074238-749853351fa2/go.mod h1:pwpGt+mzdys6UjJQii9mlmC3g+/gbSr5DUn/P/j5nwQ=
 github.com/Yesterday17/bili-archive v1.2.2-0.20190527031142-4c5d176bacc6 h1:w6YSnYrAIgLdiSAUB/e9mPUMfdU9Rt+njSePj7/3z9Q=
 github.com/Yesterday17/bili-archive v1.2.2-0.20190527031142-4c5d176bacc6/go.mod h1:pwpGt+mzdys6UjJQii9mlmC3g+/gbSr5DUn/P/j5nwQ=
 github.com/gorilla/websocket v1.4.0 h1:WDFjx/TMzVgy9VdMMQi2K2Emtwi2QcUQsztZ/zLaH/Q=
