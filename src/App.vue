@@ -133,11 +133,17 @@ export default {
       : 0;
     this.display = this.step;
 
-    // 更新 step
-    localStorage.setItem("step", this.step);
+    // 获取后端端口
+    fetch(`//${window.location.host}/port`)
+      .then(data => data.json())
+      .then(json => (window.port = json.port))
+      .then(() => {
+        // 更新 step
+        localStorage.setItem("step", this.step);
 
-    // 路由跳转
-    this.$router.push("step-0" + this.step);
+        // 路由跳转
+        this.$router.push("step-0" + this.step);
+      });
   }
 };
 </script>
